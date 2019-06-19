@@ -1,7 +1,120 @@
 <!DOCTYPE html>
 <html>
-<h1 id = "star"> Website </h1>
-<body> 
-<p>New text in a paragraph. </p>
+<head>
+	<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+<h1> The Color Sheet</h1>
+</head>
+
+<body>
+<p> Move your mouse over the table to draw. Click on the palette to pick other colors.</p>
+    <div id = "palette">
+  <div class = "pen" style="background-color:white;" onClick="setPenColour('white')"></div>
+  <div class = "pen" style="background-color:black;"onClick="setPenColour('black')"></div>
+  <div class = "pen" style="background-color:yellow;"onClick="setPenColour('yellow')"></div>
+  <div class = "pen" style="background-color:blue;"onClick="setPenColour('blue')"></div>
+  <div class = "pen" style="background-color:green;"onClick="setPenColour('green')"></div>
+  <div class = "pen" style="background-color:orange;"onClick="setPenColour('orange')"></div>
+</div>
+<div id = "art">
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)"+ onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  <div class="row">
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    <div class="pixel" onClick="setPixelColour(this)" onmouseover="setPixelColour(this)"></div>
+    
+    
+  </div>
+  
+  
+</div>
 </body>
 </html>
